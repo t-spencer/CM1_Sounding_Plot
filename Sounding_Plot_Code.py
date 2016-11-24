@@ -6,7 +6,7 @@ Copyright (C) 2016 Trenton W. Spencer
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+    any later version.
 
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -14,11 +14,7 @@ Copyright (C) 2016 Trenton W. Spencer
     GNU General Public License for more details.
 
    For full license, see <http://www.gnu.org/licenses/>.
-"""
-__author__ = 'Trenton Spencer'
-__version__ = 2.0
-__license__ = "GNU GPL v3"
-"""
+
 Created on Wed Nov 2 04:20:37 2016
 @author: Trenton Spencer, TAMU Meteorology '17
 Contact: trentspencer144@gmail.com
@@ -28,6 +24,9 @@ This code requires installation of the netCDF4 and pymeteo packages. You may plo
 sounding in the same execution by simply uncommenting both sets of lines (delete #)
 """
 #-------------------------------------(Begin Code)--------------------------------------------------------------
+__author__ = 'Trenton Spencer'
+__version__ = 2.0
+__license__ = "GNU GPL v3"
 """
 If you want to plot cm1 output soundings from the CM1 output data in netCDF format,
 uncomment and edit these lines
